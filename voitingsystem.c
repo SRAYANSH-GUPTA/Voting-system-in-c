@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
         // Query for each rank
         for (int j = 0; j < candidate_count; j++)
         {
-            char name[100]; // assuming candidate names won't exceed 100 characters
+            char name[100]; 
             printf("Rank %i: ", j + 1);
             scanf("%s", name);
 
